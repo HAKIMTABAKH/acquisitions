@@ -76,3 +76,11 @@
 {"level":"info","message":"::1 - - [04/Nov/2025:10:37:12 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 113 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-04T10:37:12.538Z"}
 {"level":"info","message":"User signed out successfully","service":"acquisitions-api","timestamp":"2025-11-04T10:37:31.523Z"}
 {"level":"info","message":"::1 - - [04/Nov/2025:10:37:31 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-04T10:37:31.526Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:11:24:27 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-04T11:24:27.535Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:11:24:29 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-04T11:24:29.759Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:11:24:30 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-04T11:24:30.375Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:11:24:30 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-04T11:24:30.992Z"}
+{"level":"info","message":"::1 - - [04/Nov/2025:11:24:31 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"HTTPie\"","service":"acquisitions-api","timestamp":"2025-11-04T11:24:31.542Z"}
+{"ip":"::1","level":"warn","message":"Rate limite exceeded","path":"/health","service":"acquisitions-api","timestamp":"2025-11-04T11:24:31.997Z","userAgent":"HTTPie"}
+{"ip":"::1","level":"warn","message":"Rate limite exceeded","path":"/health","service":"acquisitions-api","timestamp":"2025-11-04T11:24:32.126Z","userAgent":"HTTPie"}
+{"ip":"::1","level":"warn","message":"Rate limite exceeded","path":"/health","service":"acquisitions-api","timestamp":"2025-11-04T11:24:32.632Z","userAgent":"HTTPie"}
